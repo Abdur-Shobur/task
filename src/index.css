@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrap-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 20px;
+}
+.items-list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 20px;
+}
+
+.child-wraps .wrap-box {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 50px;
+}
+
+.topBtnWrap {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.topBtnWrap__btn {
+	border: none;
+	background: green;
+	color: #fff;
+	padding: 8px 30px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.topBtnWrap__btn.false {
+	border: none;
+	background: #fd3300;
+	color: #fff;
+	padding: 8px 30px;
+	border-radius: 20px;
+	cursor: pointer;
+}

@@ -1,0 +1,65 @@
+.title {
+	display: flex;
+	width: 300px;
+	height: 60px;
+	border-radius: 10px;
+	border: 1px solid #dfe1e1;
+	background: #fff;
+	justify-content: center;
+	align-items: center;
+	gap: 16px;
+	color: #212524;
+	text-align: center;
+	font-family: 'Instrument Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 22px;
+}
+
+.btnPlus {
+	border-radius: 8px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	display: inline-flex;
+	padding: 9px 16px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	cursor: pointer;
+}
+
+.curve {
+	display: inline-flex;
+	padding: 6px 12px;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+	border-radius: 6px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	width: max-content;
+	height: max-content;
+}
+
+.btnDel {
+	position: absolute;
+	right: 3px;
+	top: -8px;
+	border: none;
+	background: #ff2727;
+	color: #fff;
+	padding: 2px 11px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 10px;
+	display: none;
+}
+
+.inpWrap {
+	position: relative;
+	transition: all linear 0.3s;
+}
+.inpWrap:hover .btnDel {
+	display: block;
+}

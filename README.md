@@ -1,8 +1,33 @@
-# React + Vite
+## Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Complete task step**
 
-Currently, two official plugins are available:
+- Create new items
+- Delete new items
+- Save Local Storage
+- Delete Local Storage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Using Package and Components**
+
+- React js
+
+**Summery**
+
+This task was too much complicated but i thing to do different way to solve.
+
+**live Link ** [https://task-fields.netlify.app/](https://task-fields.netlify.app/)
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  git clone
+  cd task
+  npm i
+  npm run dev
+
+```
+
+_Author_  
+[Abdur Shobur](http://abdur-shobur-portfolio.web.app/)

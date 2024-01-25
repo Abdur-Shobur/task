@@ -10,6 +10,8 @@
 	flex-direction: column;
 	align-items: center;
 	row-gap: 20px;
+	width: fit-content;
+	margin: 0 auto;
 }
 .items-list {
 	display: flex;
